@@ -10,11 +10,6 @@ const page = (props) => {
 
       <div>
         <Hero headline={"Welcome to About Pages"} image={aboutImage} />
-        {/* <Link href={`/`}>
-          <button className="bg-[#ff2135] px-8 py-3 mt-5 rounded-lg text-white ">
-            Goto Movies
-          </button>
-        </Link> */}
       </div>
     </div>
   );
