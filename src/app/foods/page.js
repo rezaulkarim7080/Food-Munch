@@ -5,7 +5,7 @@ import Link from "next/link";
 import { MenuList } from "../data/data";
 import Image from "next/image";
 
-const page = () => {
+const Page = () => {
 
   const [items, setItems] = useState(MenuList);
 
@@ -93,4 +93,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
